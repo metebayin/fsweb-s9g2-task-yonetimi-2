@@ -29,8 +29,8 @@ function App() {
   }
 
   return (
-    <div className="app">
-      <div className="formColumn">
+    <div className="flex h-screen">
+      <div className="formColumn bg-white border-r border-[#f3d4b0] overflow-aotu basis-[360px]">
         <div className="form-container">
           <h2>Yeni Task</h2>
           <TaskHookForm kisiler={team} submitFn={handleTaskSubmit} />
@@ -43,7 +43,7 @@ function App() {
       </div>
       <div className="columns">
         <div className="column">
-          <h2 className="column-title">Yapılacaklar</h2>
+          <h2 className="column-title"  >Yapılacaklar</h2>
           <div className="column-list">
             {tasks
               .filter((t) => t.status === "yapılacak")

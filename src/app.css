@@ -1,7 +1,7 @@
 /* LAYOUT */
 .app {
-  height: 100vh;
-  display: flex;
+  /*height: 100vh;*/
+  /*display: flex;*/
 }
 
 .columns {
@@ -21,10 +21,10 @@
 }
 
 .formColumn {
-  background-color: #fff;
+  /*background-color: #fff;
   flex: 0 0 360px;
   border-right: 1px solid #f3d4b0;
-  overflow: auto;
+  overflow: auto;*/
 }
 
 .column-title {
@@ -162,3 +162,10 @@
   box-shadow: none;
 }
 /* FORM */
+.deadline-info{
+  background-color: #d4e9ff;
+}
+
+.deadline-alert {
+  background-color: #ffd9d4;
+}
